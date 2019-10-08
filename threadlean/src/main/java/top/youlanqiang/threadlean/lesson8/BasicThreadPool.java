@@ -3,7 +3,7 @@ package top.youlanqiang.threadlean.lesson8;
 import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
+
 
 /**
  * 线程池需要有数量控制属性，创建线程工厂，任务队列策略等功能
@@ -197,7 +197,7 @@ public class BasicThreadPool extends Thread implements ThreadPool{
         ThreadTask threadTask = new ThreadTask(thread, internalTask);
         threadQueue.offer(threadTask);
         this.activeCount++;
-        thread.start();
+        thread.start(); 
     }
 
     private void removeThread(){
@@ -219,18 +219,4 @@ public class BasicThreadPool extends Thread implements ThreadPool{
 
     }
 
-    private static class DefaultThreadFactory implements ThreadFactory{
-
-        private static final AtomicInteger GROUP_COUNTER = new AtomicInteger(1);
-        
-        private static final ThreadGroup group = new ThreadGroup("MyThreadPool-" + GROUP_COUNTER.getAndIncrement());
-
-        private static final AtomicInteger COUNTER = new AtomicInteger(0);
-
-        @Override
-        public Thread createThread(Runnable runnable) {
-
-            return new Thread(group, runnable, "thread-pool--" + COUNTER.getAndIncrement());
-        }
-    }
 }
