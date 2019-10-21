@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson5;
+package top.youlanqiang.threadlean.book.waitandnotify;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;

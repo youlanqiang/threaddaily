@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.singlethreadexecution.eatNoodle;
+package top.youlanqiang.threadlean.book.pattern.singlethreadexecution.eatNoodle;
 
 /**
  * 餐具类

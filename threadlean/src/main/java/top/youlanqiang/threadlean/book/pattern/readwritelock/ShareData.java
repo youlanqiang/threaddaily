@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.readwritelock;
+package top.youlanqiang.threadlean.book.pattern.readwritelock;
 
 import java.util.ArrayList;
 import java.util.List;

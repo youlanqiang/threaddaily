@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson8;
+package top.youlanqiang.threadlean.book.threadpool;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

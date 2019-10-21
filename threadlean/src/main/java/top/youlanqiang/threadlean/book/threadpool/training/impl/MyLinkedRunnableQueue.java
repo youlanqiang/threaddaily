@@ -1,8 +1,8 @@
-package top.youlanqiang.threadlean.book.lesson8.training.impl;
+package top.youlanqiang.threadlean.book.threadpool.training.impl;
 
-import top.youlanqiang.threadlean.book.lesson8.training.MyDenyPolicy;
-import top.youlanqiang.threadlean.book.lesson8.training.MyRunnableQueue;
-import top.youlanqiang.threadlean.book.lesson8.training.MyThreadPool;
+import top.youlanqiang.threadlean.book.threadpool.training.MyDenyPolicy;
+import top.youlanqiang.threadlean.book.threadpool.training.MyRunnableQueue;
+import top.youlanqiang.threadlean.book.threadpool.training.MyThreadPool;
 
 import java.util.LinkedList;
 

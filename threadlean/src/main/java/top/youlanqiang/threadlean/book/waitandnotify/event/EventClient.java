@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson5.event;
+package top.youlanqiang.threadlean.book.waitandnotify.event;
 
 import java.util.concurrent.TimeUnit;
 

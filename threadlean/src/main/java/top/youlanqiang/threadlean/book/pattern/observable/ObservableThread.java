@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.observable;
+package top.youlanqiang.threadlean.book.pattern.observable;
 
 public class ObservableThread<T> extends Thread implements Observable {
 

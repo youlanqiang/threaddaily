@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.observable;
+package top.youlanqiang.threadlean.book.pattern.observable;
 
 /**
  * 监控任务的生命周期

@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson8;
+package top.youlanqiang.threadlean.book.threadpool;
 
 /**
  * 线程池原理以及自定义线程池

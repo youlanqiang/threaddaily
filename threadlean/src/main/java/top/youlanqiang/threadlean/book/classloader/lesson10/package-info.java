@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson10;
+package top.youlanqiang.threadlean.book.classloader.lesson10;
 
 /**
  * JVM内置的3大类加载器

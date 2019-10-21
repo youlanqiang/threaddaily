@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson11;
+package top.youlanqiang.threadlean.book.classloader.lesson11;
 
 public class MainThreadClassLoader {
 

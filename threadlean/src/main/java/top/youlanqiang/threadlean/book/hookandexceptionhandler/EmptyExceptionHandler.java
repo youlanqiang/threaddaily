@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson7;
+package top.youlanqiang.threadlean.book.hookandexceptionhandler;
 
 import java.util.concurrent.TimeUnit;
 

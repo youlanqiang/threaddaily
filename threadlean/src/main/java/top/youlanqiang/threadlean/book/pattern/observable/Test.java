@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.observable;
+package top.youlanqiang.threadlean.book.pattern.observable;
 
 
 import java.util.concurrent.TimeUnit;

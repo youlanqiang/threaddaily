@@ -1,6 +1,6 @@
-package top.youlanqiang.threadlean.book.lesson8.training.impl;
+package top.youlanqiang.threadlean.book.threadpool.training.impl;
 
-import top.youlanqiang.threadlean.book.lesson8.training.MyThreadFactory;
+import top.youlanqiang.threadlean.book.threadpool.training.MyThreadFactory;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

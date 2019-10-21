@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.threadcontext;
+package top.youlanqiang.threadlean.book.pattern.threadcontext;
 
 /**
  * 程序上下文，整个程序应该只能出现一个

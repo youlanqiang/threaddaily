@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.singlethreadexecution.unsafeFlight;
+package top.youlanqiang.threadlean.book.pattern.singlethreadexecution.unsafeFlight;
 
 public class FlightSecurityTest {
 

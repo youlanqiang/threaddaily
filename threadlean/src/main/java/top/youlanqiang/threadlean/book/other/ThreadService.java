@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book;
+package top.youlanqiang.threadlean.book.other;
 
 import java.util.concurrent.TimeUnit;
 

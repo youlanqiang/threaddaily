@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson8;
+package top.youlanqiang.threadlean.book.threadpool;
 
 /**
  * 这是Runnable的一个实现，主要用于线程池内部

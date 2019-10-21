@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson9;
+package top.youlanqiang.threadlean.book.classloader.lesson9;
 
 /**
  * JVM虚拟机规范规定了，
@@ -29,7 +29,7 @@ public class UsedTest {
      * 4。对某个类进行反射操作
      */
     public static void main(String[] args) throws Exception{
-        Class.forName("top.youlanqiang.threadlean.book.lesson9.UsedTest");
+        Class.forName("top.youlanqiang.threadlean.book.classloader.lesson9.UsedTest");
     }
 
     /**

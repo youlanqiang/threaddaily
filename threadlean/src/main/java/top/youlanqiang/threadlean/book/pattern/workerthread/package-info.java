@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.workerthread;
+package top.youlanqiang.threadlean.book.pattern.workerthread;
 
 
 /**

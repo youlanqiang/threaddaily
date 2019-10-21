@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson10;
+package top.youlanqiang.threadlean.book.classloader.lesson10;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

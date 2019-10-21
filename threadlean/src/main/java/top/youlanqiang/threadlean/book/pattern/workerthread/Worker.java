@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.workerthread;
+package top.youlanqiang.threadlean.book.pattern.workerthread;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;

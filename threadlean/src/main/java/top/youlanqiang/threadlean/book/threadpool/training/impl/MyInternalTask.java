@@ -1,6 +1,6 @@
-package top.youlanqiang.threadlean.book.lesson8.training.impl;
+package top.youlanqiang.threadlean.book.threadpool.training.impl;
 
-import top.youlanqiang.threadlean.book.lesson8.training.MyRunnableQueue;
+import top.youlanqiang.threadlean.book.threadpool.training.MyRunnableQueue;
 
 public class MyInternalTask implements Runnable {
 

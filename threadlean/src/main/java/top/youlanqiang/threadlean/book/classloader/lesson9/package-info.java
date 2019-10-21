@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson9;
+package top.youlanqiang.threadlean.book.classloader.lesson9;
 
 /**
  * 类的加载过程

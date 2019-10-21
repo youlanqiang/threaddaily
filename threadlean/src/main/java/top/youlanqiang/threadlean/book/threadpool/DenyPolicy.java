@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson8;
+package top.youlanqiang.threadlean.book.threadpool;
 
 
 /**

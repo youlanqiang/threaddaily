@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson7;
+package top.youlanqiang.threadlean.book.hookandexceptionhandler;
 
 /**
  * 介绍如何获取线程在运行时期的异常信息

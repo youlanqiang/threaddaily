@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson12;
+package top.youlanqiang.threadlean.book.mvolatile;
 
 import java.util.concurrent.TimeUnit;
 

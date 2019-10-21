@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson8.training;
+package top.youlanqiang.threadlean.book.threadpool.training;
 
 /**
  * 当任务队列满了之后执行的拒绝策略

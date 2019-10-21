@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.threadpermessage;
+package top.youlanqiang.threadlean.book.pattern.threadpermessage;
 
 
 /**

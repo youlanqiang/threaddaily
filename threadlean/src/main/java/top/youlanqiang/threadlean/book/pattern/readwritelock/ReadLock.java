@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.readwritelock;
+package top.youlanqiang.threadlean.book.pattern.readwritelock;
 
 //ReadLock设计为包可见
 class ReadLock implements Lock {

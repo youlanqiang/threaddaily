@@ -1,7 +1,7 @@
-package top.youlanqiang.threadlean.book.threadpermessage;
+package top.youlanqiang.threadlean.book.pattern.threadpermessage;
 
-import top.youlanqiang.threadlean.book.lesson8.BasicThreadPool;
-import top.youlanqiang.threadlean.book.lesson8.ThreadPool;
+import top.youlanqiang.threadlean.book.threadpool.BasicThreadPool;
+import top.youlanqiang.threadlean.book.threadpool.ThreadPool;
 
 import java.io.IOException;
 import java.net.ServerSocket;

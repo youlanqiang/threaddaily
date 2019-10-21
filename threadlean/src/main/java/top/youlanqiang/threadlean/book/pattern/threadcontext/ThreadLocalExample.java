@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.threadcontext;
+package top.youlanqiang.threadlean.book.pattern.threadcontext;
 
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;

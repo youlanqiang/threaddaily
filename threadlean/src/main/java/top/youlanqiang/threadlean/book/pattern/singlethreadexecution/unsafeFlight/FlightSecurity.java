@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.singlethreadexecution.unsafeFlight;
+package top.youlanqiang.threadlean.book.pattern.singlethreadexecution.unsafeFlight;
 
 /**
  * 模拟一个非线程安全的安检口类，

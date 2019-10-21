@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.lesson6;
+package top.youlanqiang.threadlean.book.threadgroup;
 
 public class ThreadGroupApi {
 
