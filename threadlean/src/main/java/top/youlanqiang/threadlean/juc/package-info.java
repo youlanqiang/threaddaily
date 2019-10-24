@@ -12,6 +12,9 @@ package top.youlanqiang.threadlean.juc;
  * AtomicIntegerArray
  * AtomicLongArray
  * AtomicReferenceArray
+ * AtomicIntegerFieldUpdater
+ * AtomicLongFieldUpdater
+ * AtomicReferenceFieldUpdater
  *
  * 并发工具---
  * CountDownLatch
