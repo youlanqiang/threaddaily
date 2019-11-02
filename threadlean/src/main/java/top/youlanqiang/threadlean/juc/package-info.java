@@ -1,6 +1,8 @@
 package top.youlanqiang.threadlean.juc;
 
 /**
+ * AQS 是java.util.concurrent重要的内容
+ *
  * JUC包
  *
  * 原子类---
