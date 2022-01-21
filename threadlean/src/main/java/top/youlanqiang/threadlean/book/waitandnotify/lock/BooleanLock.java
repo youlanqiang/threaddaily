@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.waitandnotify;
+package top.youlanqiang.threadlean.book.waitandnotify.lock;
 
 import java.util.ArrayList;
 import java.util.List;

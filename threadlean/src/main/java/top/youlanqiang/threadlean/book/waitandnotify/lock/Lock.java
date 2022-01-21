@@ -1,4 +1,4 @@
-package top.youlanqiang.threadlean.book.waitandnotify;
+package top.youlanqiang.threadlean.book.waitandnotify.lock;
 
 import java.util.List;
 import java.util.concurrent.TimeoutException;
