@@ -19,7 +19,7 @@ public class CaptureThreadException {
         final Thread thread = new Thread(()->{
             try {
                 TimeUnit.SECONDS.sleep(2);
-            }catch(InterruptedException e){
+            }catch(InterruptedException ignored){
 
             }
             // 这里会出现 unchecked异常

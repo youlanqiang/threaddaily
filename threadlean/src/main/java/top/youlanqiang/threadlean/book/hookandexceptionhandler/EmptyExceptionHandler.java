@@ -16,7 +16,7 @@ public class EmptyExceptionHandler {
         final Thread thread = new Thread(()->{
             try {
                 TimeUnit.SECONDS.sleep(2);
-            }catch (InterruptedException e){
+            }catch (InterruptedException ignored){
 
             }
             System.out.println(1/0);

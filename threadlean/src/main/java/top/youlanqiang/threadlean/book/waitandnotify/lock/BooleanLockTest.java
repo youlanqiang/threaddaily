@@ -8,11 +8,26 @@ public class BooleanLockTest {
 
     private static final Lock lock = new BooleanLock();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         BooleanLockTest test = new BooleanLockTest();
 
-        IntStream.range(0, 10).mapToObj(i -> new Thread(test::syncMethod))
-                .forEach(Thread::start);
+        // 多个线程通过lock方法来争抢锁
+//        IntStream.range(0, 10).mapToObj(i -> new Thread(test::syncMethod))
+//                .forEach(Thread::start);
+
+        // 可中断被阻塞的线程
+        new Thread(test::syncMethod, "T1").start();
+        TimeUnit.MILLISECONDS.sleep(2);
+        Thread t2 = new Thread(test::syncMethod, "T2");
+        t2.start();
+        TimeUnit.MILLISECONDS.sleep(10);
+        t2.interrupt(); // t2因为争抢同一个lock而被阻塞，但是可以使用 interrupt方法打断
+
+
+
+
+
+
 
     }
 
