@@ -63,6 +63,7 @@ public class BasicThreadPool extends Thread implements ThreadPool{
     }
 
     private void init(){
+        //启动线程池
         start();
         for (int i = 0; i < initSize; i++) {
             newThread();

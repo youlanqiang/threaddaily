@@ -1,5 +1,6 @@
 package top.youlanqiang.threadlean.book.threadpool;
 
+// 提供创建线程的接口
 @FunctionalInterface
 public interface ThreadFactory {
 

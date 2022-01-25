@@ -16,6 +16,7 @@ public class MyClassLoader extends ClassLoader{
 
     //使用默认的class路径
     public MyClassLoader(){
+
         super();
         this.classDir = DEFAULT_CLASS_DIR;
     }

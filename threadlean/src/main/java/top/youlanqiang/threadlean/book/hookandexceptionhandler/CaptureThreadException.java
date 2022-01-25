@@ -11,8 +11,9 @@ public class CaptureThreadException {
     public static void main(String[] args) {
         Thread.setDefaultUncaughtExceptionHandler(
                 (t, e)->{
+                    // t 是 Thread e 是 exception
                     System.out.println(t.getName() + " occur exception");
-                    e.printStackTrace();
+                    //e.printStackTrace();
                 }
         );
 
