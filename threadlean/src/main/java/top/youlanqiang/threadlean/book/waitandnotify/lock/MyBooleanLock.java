@@ -52,67 +52,17 @@ public class MyBooleanLock implements Lock {
 
     @Override
     public void lock() throws InterruptedException {
-        synchronized(this){
-            Thread thread = Thread.currentThread();
-            while(locked){
-                if(!blockedList.contains(thread)){
-                    blockedList.add(thread);
-                }
-                try {
-                    this.wait();
-                }catch(InterruptedException e){
-                    blockedList.remove(thread);
-                    throw e;
-                }
-            }
-
-            blockedList.remove(thread);
-            this.locked = true;
-            this.currentThread = thread;
-        }
+        
     }
 
     @Override
     public void lock(long millis) throws InterruptedException, TimeoutException {
-            synchronized(this){
-                if(millis < 0 ){
-                    this.lock();
-                }else{
-                    Thread thread = Thread.currentThread();
-                    long remainingMillis = millis;
-                    long endMills = System.currentTimeMillis() + millis;
-                    while(locked){
-                        if(remainingMillis <= 0){
-                            throw new TimeoutException();
-                        }
-                        if(!blockedList.contains(thread)){
-                            blockedList.add(thread);
-                        }
-                        try {
-                            this.wait(remainingMillis);
-                        }catch(InterruptedException e){
-                            blockedList.remove(thread);
-                            throw e;
-                        }
 
-                        remainingMillis = endMills - System.currentTimeMillis();
-                    }
-
-                    this.locked = true;
-                    this.currentThread = thread;
-                    this.blockedList.remove(thread);
-                }
-            }
     }
 
     @Override
     public void unlock() {
-        synchronized (this){
-            if(currentThread == Thread.currentThread()){
-                this.locked = false;
-                this.notifyAll();
-            }
-        }
+
     }
 
     @Override
