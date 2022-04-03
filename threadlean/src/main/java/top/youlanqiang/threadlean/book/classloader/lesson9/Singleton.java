@@ -21,6 +21,7 @@ public class Singleton {
         return instance;
     }
 
+
     public static void main(String[] args) {
         Singleton singleton = Singleton.getInstance();
         System.out.println(singleton.x);// 1 0

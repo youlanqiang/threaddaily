@@ -1,4 +1,4 @@
-
+package top.youlanqiang.threadlean.book.pattern.eventbus;
 /**
  * Event Bus设计模式
  * 消息中间件提供了系统之间的异步处理机制，
