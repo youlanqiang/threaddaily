@@ -24,6 +24,7 @@ public class ThreadJoin {
 
         // 执行这2个线程的join方法
         for (Thread thread : threads) {
+
             thread.join();
         }
 

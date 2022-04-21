@@ -51,6 +51,7 @@ public class UnsafeFooTest {
     //获取Unsafe对象
     public static Unsafe getUnsafe(){
         try {
+            //Unsafe类内部有一个名为theUnsafe的私有实例变量，我们可以通过反射来获取该实例变量。
             Field field = Unsafe.class.getDeclaredField("theUnsafe");
             field.setAccessible(true);
             return (Unsafe) field.get(null);

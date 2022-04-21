@@ -1,5 +1,8 @@
 package top.youlanqiang.threadlean.book.classloader.lesson9;
 
+/**
+ * 将注释2的代码移动到注释1的位置，输出结果会发生变化，这是为什么？
+ */
 public class Singleton {
 
     //1
