@@ -2,6 +2,7 @@ package top.youlanqiang.threadlean.book.waitandnotify.event;
 
 import java.util.concurrent.TimeUnit;
 
+
 public class EventClient {
 
     public static void main(String[] args) {

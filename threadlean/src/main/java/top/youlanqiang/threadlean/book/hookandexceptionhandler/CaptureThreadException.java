@@ -11,15 +11,16 @@ public class CaptureThreadException {
     public static void main(String[] args) {
         Thread.setDefaultUncaughtExceptionHandler(
                 (t, e)->{
+                    // t 是 Thread e 是 exception
                     System.out.println(t.getName() + " occur exception");
-                    e.printStackTrace();
+                    //e.printStackTrace();
                 }
         );
 
         final Thread thread = new Thread(()->{
             try {
                 TimeUnit.SECONDS.sleep(2);
-            }catch(InterruptedException e){
+            }catch(InterruptedException ignored){
 
             }
             // 这里会出现 unchecked异常

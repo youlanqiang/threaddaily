@@ -8,18 +8,6 @@ import java.util.stream.IntStream;
 public class CompletableFutureExample1 {
 
     public static void main(String[] args) throws InterruptedException {
-//        ExecutorService executorService = Executors.newFixedThreadPool(10);
-//        Future<?> future = executorService.submit(()->{
-//            try {
-//                TimeUnit.SECONDS.sleep(10);
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
-//        });
-//        while(!future.isDone()){
-//
-//        }
-//        System.out.println("DONE");
 
         CompletableFuture.runAsync(()->{
             try {

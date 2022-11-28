@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 public class PreventDuplicated {
 
 
-    private final static String LOCK_PATH = "/Users/youlanqiang/locks";
+    private final static String LOCK_PATH = "./";
 
     private final static String LOCK_FILE = ".lock";
 
@@ -29,7 +29,12 @@ public class PreventDuplicated {
         //注入Hook线程，在程序退出时删除lock文件
         Runtime.getRuntime().addShutdownHook(new Thread(()->{
             System.out.println("The program received kill SIGNAL");
-            getLockFile().toFile().delete();
+            boolean result = getLockFile().toFile().delete();
+            if(result){
+                System.out.println("The lockfile was deleted");
+            }else{
+                System.out.println("The lockfile wasn't deleted");
+            }
         }));
 
         //检查是否存在.lock文件

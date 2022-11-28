@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class ThreadHook {
 
     public static void main(String[] args) {
+
         Runtime.getRuntime().addShutdownHook(new Thread(
                 () -> {
                     try {
