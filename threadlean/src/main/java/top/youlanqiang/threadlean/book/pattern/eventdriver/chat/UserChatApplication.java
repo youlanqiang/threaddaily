@@ -5,7 +5,7 @@ import top.youlanqiang.threadlean.book.pattern.eventdriver.async.AsyncEventDispa
 public class UserChatApplication {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         //定义异步的Router
         final AsyncEventDispatcher dispatcher = new AsyncEventDispatcher();
 
@@ -18,6 +18,8 @@ public class UserChatApplication {
         new UserChatThread(new User("Leo"), dispatcher).start();
         new UserChatThread(new User("Alex"), dispatcher).start();
         new UserChatThread(new User("Tina"), dispatcher).start();
+
+
 
     }
 
