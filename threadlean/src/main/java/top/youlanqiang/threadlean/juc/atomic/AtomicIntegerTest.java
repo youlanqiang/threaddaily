@@ -1,14 +1,13 @@
 package top.youlanqiang.threadlean.juc.atomic;
 
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.stream.IntStream;
 
 public class AtomicIntegerTest {
 
     /**
      * 保证内存可见，保证有序性
      */
-    private  static volatile int value = 0;
+    private static volatile int value = 0;
 
     public static void main(String[] args) {
 
@@ -19,13 +18,10 @@ public class AtomicIntegerTest {
 
         at.set(1);
         at.get();
-        //+1
+        // +1
         at.getAndIncrement();
-        //-1
+        // -1
         at.getAndDecrement();
     }
-
-
-
 
 }
