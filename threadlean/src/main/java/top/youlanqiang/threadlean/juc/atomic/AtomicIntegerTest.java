@@ -17,11 +17,12 @@ public class AtomicIntegerTest {
         AtomicInteger at = new AtomicInteger();
 
         at.set(1);
-        at.get();
+        System.out.println(at.get());
         // +1
         at.getAndIncrement();
+        System.out.println(at.getAndIncrement());
         // -1
-        at.getAndDecrement();
+        System.out.println(at.getAndDecrement());
     }
 
 }

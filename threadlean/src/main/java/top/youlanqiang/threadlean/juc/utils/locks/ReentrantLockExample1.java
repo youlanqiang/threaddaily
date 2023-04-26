@@ -25,7 +25,7 @@ public class ReentrantLockExample1 {
 //        thread2.interrupt();
 //        System.out.println("==============");
         TimeUnit.SECONDS.sleep(1);
-        System.out.println(lock.getQueueLength());
+        System.out.println(lock.getQueueLength());//等待队列有多少个线程
         System.out.println(lock.hasQueuedThreads());//是否有等待获取lock的线程
 
     }
