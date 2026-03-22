@@ -9,8 +9,5 @@
         <module name="threadlean" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="threadlean" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
