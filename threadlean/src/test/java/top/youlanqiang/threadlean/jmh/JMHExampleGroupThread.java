@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @Warmup(iterations = 1, time = 1, timeUnit = TimeUnit.SECONDS)
 @Measurement(iterations = 3, time = 1, timeUnit = TimeUnit.SECONDS)
-@Fork(1)
+@Fork(1) //fork = 0 在同一个jvm中运行，fork = 1 开辟一个新的jvm进程运行基准测试
 public class JMHExampleGroupThread {
 
     @State(Scope.Group)
